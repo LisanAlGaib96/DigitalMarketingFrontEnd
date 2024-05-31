@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busra Digital Technologies-Website</title>
+    <style>
+      /* Yazı renklerini tanımlama. */
+      .seemore1{
+        color:darkslateblue;
+      } 
+      .seemore2{
+        color:darkslateblue;
+      }
+      .seemore3{
+        color:darkslateblue;
+      }
+      .world1{
+        color:darkorange;
+      }
+      .world2{
+        color:darkorange;
+      }
+      .world3{
+        color:darkorange;
+      }
+      .sidebar-heading{
+        color:coral;
+      }
+      .content1{
+        color:darkorange;
+      }
+
+      .content2{
+        color:darkorange;
+      }
+
+      .content3{
+        color:darkorange;
+      }
+
+      .copyright-text{
+        text-align:center;
+      }
+
+      .admin3{
+        color:darkslateblue;
+      }
+      .Feb3{
+        color:darkslateblue;
+      }
+      .Comments3{
+        color:darkslateblue;
+      }
+      .typo2{
+        color:darkslateblue;
+      }
+      .admin2{
+        color:darkslateblue;
+      }
+      .Jan2{
+        color:darkslateblue;
+      }
+
+      .comments2{
+        color:darkslateblue;
+      }
+      .typo1{
+        color:darkslateblue;
+      }
+      .typo{
+        color:darkslateblue;
+      }
+      .admin1{
+        color:darkslateblue;
+      }
+      .may1{
+        color:darkslateblue;
+      }
+      .comments1{
+        color:darkslateblue;
+      }
+      .btn-secondary{
+        /* position: absolute;
+        top: 30px;
+        right: 10px; */
+        position:absolute;
+        top:30%;
+        right:25%
+      }
+      .banner{
+        border:solid;
+        border-color:#f3c131;
+        background-color:lightgray;
+        border-width: 10px;
+        margin:auto;
+        width: 1000px;
+        height:100px;
+      }
+
+     /* Tüm tabloları sabitleme,resimleri ortalama, yazı tipi ayarları. */
+      * {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+
+/* Slayt tablosu ayarları */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+/* Banner Renklendirme ve Yazı Ayarları */
+.text {
+  color: black;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Slayt Ayarları  */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Noktalar/Göstericiler(Slayt altındaki) */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* .active {
+  background-color: #717171;
+} */
+
+/* Hareketli Animasyon */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+/*Animasyon Ayarları*/
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* Ekran yazısı ayarları */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+        
+/*Slayt tablosu altındaki banner kutusu ve genel sayfa ayarları.*/
+ .container {
+  position: relative;
+  font-family: Arial;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 40px;
+  right: 20px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+      
+ #container{
+  background-color:lightgray;
+ }
+    </style>
+
+<!-- Bootstrap linki -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    
+</head>
+<body>
+  <!-- Bootstrap CDN Linki -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <header class="">
+      <!-- Navbar Ayarları - Sayfaların Başlıklarda Sınıflandırılması-->
+        <nav class="navbar navbar-expand-lg">
+          <div class="container">
+            <img src="transparent 2 .png" alt="Taslak" title="resim">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home
+                    <span class="sr-only"></span>
+                  </a>
+                </li> 
+                <li class="nav-item active">
+                  <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="blog.html">Blog Entries</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <!--Body Rengi ve Banner Tasarımı -->
+      <body style="background-color:whitesmoke"></body>
+      <p class="placeholder-glow">
+        <span class="placeholder col-12"></span>
+      </p>
+      <!-- Slayt Gösterisi Ayarları, Başlıkları ve Stil Ayarları -->
+      <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="10-step-guide-to-starting-a-business.png (2).jpg" style="width:100%">
+  <a href="startingbusiness.html">
+  <div style="color:darkblue;"class="text">An Actionable 10-Step Guide To Launch a Tech Startup</div>
+  </a>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="How-to-Develop-a-Growth-Strategy.jpg (2).jpg" style="width:100%">
+  <a href="topchallenges.html">
+  <div style="color:darkblue;"class="text">Top Challenges Faced By Non-Tech Founders </div>
+</a>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="how-to-redesign-an-app.png (1).jpg" style="width:100%">
+  <a href="#">
+  <div style="color:darkblue;"class="text">How to Redesign An App for Scaling: The Complete Guide</div>
+  </a>
+</div>
+
+
+
+
+</div>
+<br>
+
+<!-- Slayt Altındaki Noktaların,Göstergelerin Konumlandırılması -->
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<!-- Slayt takibi yapmak adına yazılmıştır. -->
+<script>
+  let slideIndex = 0;
+// Showslide fonksiyonunu tanımlamak için bir metot ürettik.
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides"); //GetElementsBy metodu, myslides sınıfındaki tüm ögeleri alır ve bunları slaytlar değişkeninde saklar. Bu ögeler slayt gösterisindeki slaytlardır.
+  let dots = document.getElementsByClassName("dot"); //Aynı şekilde bu metod, dot sınıfındaki tüm ögeleri alır ve bunları slaytlar değişkeninde saklar. Bu ögeler slayt gösterisindeki tuşlardır.
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  //Slaytları yinelemek için bir for döngüsü oluşturuldu ve görünümleri "yok" olarak ayarlandı ki slayt devam ettikçe gizlensinler.
+  slideIndex++; //Bir sonraki slayta geçiş yapmak için kullanıldı.
+  if (slideIndex > slides.length) {slideIndex = 1}   //Toplam slayt sayısı aşılırsa ilk başta tanımladığımız slayt indeksini 1'e tamamlar ve slaytın hep dönmesini sağlar.
+
+  //Bu for döngüsü aktif sınıfı noktalardan kaldırır. 
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Resimleri iki saniyede bir değiştirmek adına kurulmuştur.
+}
+  </script>
+  <!-- Body stili ayarlama. -->
+            <body style="background-color:whitesmoke"></body>
+            <!-- Slayt altındaki kutunun ayarları. -->
+            <section class="call-to-action">
+                <div class="container">
+                  <div class="banner">
+                   <span><i>Digital Marketing</i></span>
+                 <h3>Ultimate Guide For Digital Marketing-FREE!</h3>
+                      <div class="col-lg-4">
+                     <div class="main-button">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="main-content">
+                        <div class="row">
+                          <div class="col-lg-8">
+                          </div>
+                          <div class="col-lg-6">
+                            <p><a href="https://www.digitalmarketer.com/digital-marketing/assets/pdf/ultimate-guide-to-digital-marketing.pdf" class="btn btn-secondary">Download Now!</a></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <!-- Blog yazısı Ana Sayfa Ayarları-Resimler ve Yazılar -->
+              <section class="blog-posts">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-8">
+                      <div class="all-blog-posts">
+                        <div class="row">
+                          <div class="col-lg-12">
+                            <div class="blog-post">
+                              <div class="blog-thumb">
+                                <img src="10-step-guide-to-starting-a-business.png (2).jpg" alt="">
+                              </div>
+                              <div class="down-content">
+                                <p style="color:blue"><strong><i>Business World</i></strong></p>
+                                <a href="startingbusiness.html" class="typo"><h3>An Actionable 10-Step Guide to Launch A Tech Startup</a></h3>
+                                <ul class="post-info">
+                                  <li class="admin1">Busra Nur</a></li>
+                                  <li class="may1">May 31, 2023</a></li>
+                                  <li class="comments1">12 Comments</a></li>
+                                </ul>
+                                <p style="color:darkorange;">Starting a tech business means understanding and dealing with finance, legal, sales, and marketing issues. As you are interested in starting a tech business, you have taken the leap of faith to become a doer.<a href="startingbusiness.html" class="seemore1">See More</a></p>
+                                <div class="post-options">
+                                  <div class="row">
+                                    <div class="col-6">
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-12">
+                            <div class="blog-post">
+                              <div class="blog-thumb">
+                                <img src="How-to-Develop-a-Growth-Strategy.jpg (2).jpg" alt="">
+                              </div>
+                              <div class="down-content">
+                                <p style="color:blue"><strong><i>Technology</i></strong></p>
+                                <a href="topchallenges.html" class="typo1"><h3>Top Challenges Faced by Non-tech Founders</a></h3>
+                                <ul class="post-info">
+                                  <li class="admin2">Merve Cicek</a></li>
+                                  <li class="Jan2">Jan 24, 2024</a></li>
+                                  <li class="comments2">36 Comments</a></li>
+                                </ul>
+                                <p style="color:darkorange;">If you have a great idea for an app or software, starting a tech business might seem like the obvious choice.But it’s not as simple as it seems. The world of technology can be intimidating for non-tech founders who may not understand the ins and outs of these products.<a href="topchallenges.html" class="seemore2">See More</a></p>
+                                <div class="post-options">
+                                  <div class="row">
+                                    <div class="col-6">
+                                    </div>
+                                    <div class="col-6">
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-12">
+                            <div class="blog-post">
+                              <div class="blog-thumb">
+                                <img src="how-to-redesign-an-app.png (1).jpg" alt="">
+                              </div>
+                              <div class="down-content">
+                                <p style="color:blue"><strong><i>Development</i></strong></p>
+                                <a href="redesigningapp.html" class="typo2"><h3>How to Redesign An App for Scaling: The Complete Guide</a></h3>
+                                  <li class="admin3">Hande Gul</a></li>
+                                  <li class="Feb3">Feb 14, 2023</a></li>
+                                  <li class="Comments3">48 Comments</a></li>
+                                </ul>
+                                <p style="color:darkorange;">Read on to understand how to revamp your app and prepare it for a scaling process without affecting your current performance or bringing your business to a standstill.<a href="redesigningapp.html"class="seemore3">See More</a></p>
+                                <div class="post-options">
+                                  <div class="row">
+                                    <div class="col-6">
+                                    </div>
+                                    <div class="col-6">
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-12">
+                            <div class="main-button">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="sidebar">
+                        <div class="row">
+                          <div class="col-lg-12">
+                            <div class="sidebar-item search">
+                            </div>
+                          </div>
+                          <div class="col-lg-12">
+                            <div class="sidebar-item recent-posts">
+                              <div class="sidebar-heading">
+                                <h2>Recent Posts</h2>
+                              </div>
+                              <div class="content">
+                                <ul>
+                                  <li><a href="startingbusiness.html" class="content1">
+                                    <h5>An Actionable 10-Step Guide to Launch A Tech Startup</h5>
+                                    <span>May 31,2023</span>
+                                  </a></li>
+                                  <li><a href="topchallenges.html" class="content2">
+                                    <h5>Top Challenges Faced by Non-tech Founders</h5>
+                                    <span>Jan 24, 2024</span>
+                                  </a></li>
+                                  <li><a href="redesigningapp.html" class="content3">
+                                    <h5>How to Redesign An App for Scaling: The Complete Guide</h5>
+                                    <span>Feb 14, 2023</span>
+                                  </a></li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-12">
+                            <div class="sidebar-item categories">
+                          <div class="col-lg-12">
+                            <div class="sidebar-item tags">
+                              <div class="sidebar-heading">
+                              </div>
+                              <div class="content">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+          
+              <!-- Footer Ayarları -->
+              <footer>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-12">
+                    </div>
+                    <div class="col-lg-12">
+                      <div class="copyright-text">
+                        <p>Copyright 2024 Busra Digital T.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </footer>
+          
+            </body>
+          </html>
+    
+
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+          </head>
+          <body>
+            
+          </body>
+          </html>

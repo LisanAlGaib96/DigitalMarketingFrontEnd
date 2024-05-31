@@ -1,0 +1,50 @@
+/* Resmi Ortalamak İçin */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  * {box-sizing:border-box}
+
+  /* Slayt Gösterisi */
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Varsayılan slaytta resimleri saklamak için */
+  .mySlides {
+    display: none;
+  }
+
+.banner{
+  background-color:#717171
+}
+
+.span{
+  text-align:center;
+  text-decoration-color:blue;
+}
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: blue;
+  font-size: 30px;
+}
+
+
+
+  
+  
